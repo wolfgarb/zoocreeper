@@ -1,5 +1,5 @@
 {
-  "animals": [
+  "animalsArray": [
     {
       "id": "0",
       "name": "Spindle",
@@ -65,7 +65,7 @@
     {
       "id": "6",
       "name": "Bodhi",
-      "species": "Doggo",
+      "species": "Dog",
       "diet": "herbivore",
       "personalityTraits": [
         "zany"
@@ -74,7 +74,7 @@
     {
       "id": "7",
       "name": "Cassie",
-      "species": "Doggo",
+      "species": "Dog",
       "diet": "herbivore",
       "personalityTraits": [
         "hungry",
@@ -117,6 +117,16 @@
         "hungry"
       ],
       "id": "11"
+    },
+    {
+      "name": "Larry",
+      "species": "Lobster",
+      "diet": "piscivore",
+      "personalityTraits": [
+        "hungry",
+        "zany"
+      ],
+      "id": "12"
     }
   ]
 }
