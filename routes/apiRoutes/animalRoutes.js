@@ -26,7 +26,7 @@ router.get("/animals/:id", (req, res) => {
 
 router.post('/animals', (req, res) => {
     // set id based on what the next index of the array will be
-    res.body.id = animals.length.toString();
+    req.body.id = animals.length.toString();
 
     if (!validateAnimal(req.body)) {
         res.status(400).send('The animal is not properly formatted')
